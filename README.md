@@ -1,4 +1,4 @@
-# Stock Trading News Bot
+# SMS Stock Analysis
 
 This Python application uses OpenAI's GPT-3.5 language model to analyze stock trading news and send the analysis via SMS to a list of recipients.
 
@@ -17,8 +17,8 @@ Before running the application, make sure you have the following:
 1. Clone the repository:
 
 ```shell
-git clone https://github.com/your-username/stock-trading-news-bot.git
-cd stock-trading-news-bot
+git clone https://github.com/dreamxinxcode/sms-stock-analysis.git
+cd sms-stock-analysis
 ```
 
 2. Install the required dependencies:
