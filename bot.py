@@ -9,10 +9,10 @@ class Bot():
         openai.api_key = config('OPENAI_API_KEY')
         self.model = 'text-davinci-003'
         self.max_tokens = 500
-        self.preface = '''Please provive a list of stocks appear most bullish and bearish for day trading based off the following news. Please provide data in the following format:
-                        🚀 BUY: ... 
-                        
-                        📉 SELL: ...
+        self.preface = '''Please provide a list of the most bullish and bearish stock tickers for day trading based off the following news in the following example format:
+                        🚀 BUY: [ticker1], [ticker2]...
+                        \n\n
+                        📉 SELL: [ticker1], [ticker2]...
                        '''
         self.scaper = Scraper()
         self.sms = SMS()
