@@ -1,5 +1,7 @@
 # SMS Stock Analysis
 
+![Screenshot](docs/screenshots/screenshot.png)
+
 This Python application uses OpenAI's GPT-3.5 language model to analyze stock trading news and send the analysis via SMS to a list of recipients.
 
 ## Prerequisites
